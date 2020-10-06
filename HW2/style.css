@@ -1,0 +1,42 @@
+body {
+    background-color: #FF6347;
+  }
+  
+  #mainbox{
+    background-color: #F5DEB3;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -10rem;
+    margin-left: -10rem;
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid black;
+  }
+  
+  #top {
+    background-color: #008080;
+    margin: auto;
+    margin-top: 2rem;
+    width: 4rem;
+    height: 4rem;
+    border: 3px solid white;
+  }
+  
+  #middle {
+    background-color: #008080;
+    margin: auto;
+    margin-top: 1.5rem;
+    width: 15rem;
+    height: 4rem;
+    border: 3px dashed white;
+  }
+  
+  #bottom {
+    background-color:#008080;
+    margin: auto;
+    margin-top: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+    border: 3px solid white;
+  }
