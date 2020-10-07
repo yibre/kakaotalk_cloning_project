@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+  }
+  
+  .main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    border: 7px solid #00c6ad;
+    width: 20rem;
+  }
+  
+  .playlist-header {
+    margin-top: 2rem;
+  }
+  
+  .playlist-header button {
+    background: none;
+    border: none;
+    font-size: 25px;
+    line-height: 1;
+    margin-left: 1rem;
+  }
+  
+  .playlist-header__playlist {
+    font-size: 1.5em;
+    margin-left: 4rem;
+  }
+  
+  .now-playing {
+    display: flex;
+    margin-top: 1rem;
+    width: 18rem;
+    margin-left: 2rem;
+    justify-content: center;
+  }
+  
+  .now-playing__rectangle {
+    width: 6rem;
+    height: 6rem;
+    background-color:#ffbd11;
+    border: 3px solid black;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .now-playing__contents {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  
+  .now-playing__contents p{
+   font-size: 15px; 
+  }
+  
+  .play-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .play-menu button{
+    margin-right: 1rem;
+    font-size: 1rem;
+    background-color: white;
+    border: solid 2px black;
+    border-bottom-width: thick;
+  }
+  
+  .play-menu > .btn-roundsquare {
+    border-radius: 1rem;
+    padding: 10px;
+    width: 6rem;
+  }
+  
+  .play-menu > .btn-circle {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+  }
+  
+  .songlist__contents {
+    margin-left: 2rem;
+    display: flex;
+    margin-bottom: 1rem;
+    line-height: 25px;
+  }
+  
+  .rectangle {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 2rem;
+  }
+  
+  .first {
+   background-color: #f85a2a; 
+  }
+  
+  .second {
+   background-color: #ff89bb; 
+  }
+  
+  .third {
+    background-color: #1847e5;
+  }
+  
+  .forth {
+    background-color: #00c6ad;
+  }
+  
+  .contents p{
+    font-size: 12px;
+    font-weight: normal;
+  }
