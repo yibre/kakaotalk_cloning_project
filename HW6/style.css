@@ -1,0 +1,166 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Baloo Tamma 2', cursive;
+  background-color:#00C6AD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper{
+  width: 20rem;
+  height: 40rem;
+  margin-top: 0.5rem;
+  background-color: white;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  background-color: gold;
+  margin-top: 0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.menu__column {
+  width: 33%;
+  font-size: 30px;
+}
+
+.menu__column:first-child {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.menu__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.menu__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.search-box {
+  margin-left: 1rem;
+  transform: translate(0, -1rem);
+  display: flex;
+}
+
+input[type=search] {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  margin-right: 0;
+}
+
+.search-btn {
+  width: 3rem;
+  height: 2rem;
+  border-radius: 0 15px 15px 0;
+  border: none;
+  background-color: white;
+}
+
+.book-day__title{
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+.book-day__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-day__images{
+  width: 5rem;
+  height: 8rem;
+  background-color: #FFBD11;
+  border:2px solid black;
+  border-radius:10px;
+}
+
+.book-day__contents {
+  width: 12rem;
+  margin-left: 1rem;
+  line-height: 20px;
+}
+
+.contents__title {
+  font-size: 20px;
+}
+
+.contents__author {
+  font-size: 13px;
+}
+
+
+.top-adventure__title{
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.top-adventure {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.items__images{
+  width: 80px;
+  height: 6rem;
+  background-color: grey;
+}
+
+.items__score i{
+  font-size: 3px;
+  margin-left: 0;
+}
+
+.popular-authors {
+  margin-left: 1rem;
+}
+
+.popular-authors__title{
+  font-size: 20px;
+}
+
+.popular-authors__contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.author-contents__pic{
+  width: 30%;
+  margin-right: 5%;
+  height: 9rem;
+  background-color: gray;
+}
+
+.author-contents__exp{
+  width: 60%;
+  height: 9rem;
+}
+
+/* 
+https://codepen.io/juliepark/pen/rPVjdM 서치바 관련 자료
+
+*/
