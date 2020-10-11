@@ -1,0 +1,19 @@
+.kakaotalkscreen {
+
+}
+
+.effect1-yellow {
+    
+}
+
+.kakaoexp {
+    display: flex;
+    margin-top: 10rem;
+}
+
+.kakaoexp-logo Img{
+    top: 50%;
+    left: 20%;
+    width: 30rem;
+    height: 30rem;
+}
