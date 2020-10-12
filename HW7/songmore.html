@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>You can do anything you want! </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="songmore.css">
+  </head>
+  <body>
+    <div class="screen">
+        <header>
+            <button class="header-back" type="button" onclick="location.href='index.html'"><i class="fas fa-arrow-left"></i></button>
+            <div class="header-more"><i class="fas fa-search"></i></div>
+        </header>
+        <section class="playing">
+            <div class="playing-song__title">
+                <Img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT2IIIa65ZtoM_y07V5C6pWs5UauppE9DP0PA&usqp=CAU">
+            </div>
+            <div class="playing-song__info">
+                <h3>November</h3>
+                <h5>Tyler, The Creator</h5>
+            </div>
+        </section>
+        <section class="control">
+            <div class="musicbar">
+                <div class="musicbar-time">
+                    <div class="musicbar-songstart">1:56</div>
+                    <div class="musicbar-songend">2:21</div>
+                </div>
+                <input type="range" class="musicbar-bar" min="0" max="20">
+            </div>
+            <div class="controlbtn">
+                <button class="controlbtn-undo"><i class="fa fa-undo" aria-hidden="true"></i></button>
+                <button class="controlbtn-backward"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+                <button class="controlbtn-pause"><i class="fa fa-play" aria-hidden="true"></i></button>
+                <button class="controlbtn-forward"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+                <button class="controlbtn-random"><i class="fa fa-random" aria-hidden="true"></i></button>
+            </div>
+        </section>
+    </div>
+  </body>
+</html>
