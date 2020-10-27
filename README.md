@@ -1,5 +1,5 @@
 # kakaotalk_cloning_project
-coding project for nomad coder kakaotalk project
+coding project for kakaotalk project
 
 # First Homework
 
